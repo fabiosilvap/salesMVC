@@ -40,6 +40,7 @@ namespace SalesMVC
 
                 options.UseMySql(Configuration.GetConnectionString("SalesMVCContext"), builder =>
                 builder.MigrationsAssembly("SalesMVC")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
